@@ -1,0 +1,190 @@
+/* Start visitUs */
+.visitUs {
+    padding: calc(var(--section-padding) - 20px) 0px !important;
+    background-color: transparent !important;
+}
+
+.visitUs .boxes {
+    margin-top: 0px !important;
+}
+
+/* End visitUs */
+/* Start contact */
+.contact {
+    padding: 20px 0px 100px;
+}
+
+.contact form {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 3px rgba(171, 171, 171, 0.262);
+}
+
+.contact .div {
+    position: relative;
+    flex: 1;
+}
+
+.contact .div input {
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin: 10px 0px 0px 0px;
+    border: 2px solid #F0EFEF;
+
+}
+
+.contact .div input::placeholder {
+    font-size: 15px;
+    color: #555555b4;
+}
+
+.contact .checkbox {
+    display: block;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: #282828;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.contact .checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.contact .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+}
+
+.contact .checkbox input[type="checkbox"]:checked~.checkmark {
+    background-color: var(--main-color);
+}
+
+.contact .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.contact .checkbox input[type="checkbox"]:checked~.checkmark:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 5px;
+}
+
+.contact .checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.contact .div i {
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    color: var(--main-color);
+}
+
+.contact form .radios {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.contact form .radios input[type="radio"] {
+    display: none;
+}
+
+.contact form h5 {
+    font-size: 25px;
+    margin: 25px 0px 0px;
+    color: var(--secondary-color);
+}
+
+.contact form .radios label {
+    border: 1px solid rgb(35 35 35 / 15%);
+    padding: 10px 20px;
+    font-size: 18px;
+    color: rgb(35 35 35 / 41%);
+    border-radius: 6px;
+    display: block;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact form input[type="radio"]:checked+label {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: #ffffff;
+}
+
+.contact .div textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 15px;
+    border: 2px solid #F0EFEF;
+    outline: none;
+    font-size: 17px;
+    margin: 10px 0px 10px 0px;
+    resize: vertical;
+
+}
+
+.contact .div textarea::placeholder {
+    font-size: 17px;
+    color: #555555b4;
+}
+
+.contact button {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: white;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.contact button:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+
+/* End Consultation */

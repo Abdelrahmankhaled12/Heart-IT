@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="../assets/heart-with-flame.png" type="image/x-icon">
+
+    <!-- This sets the title of the web page that appears on the browser tab -->
+    <title>HEART IT - We Do It With Heart</title>
+
+    <!-- This links to a stylesheet for icons to add various icons to the webpage -->
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <!-- This links to a stylesheet for animations to add CSS animations to elements -->
+    <link rel="stylesheet" href="../css/animate.min.css">
+
+    <!-- This links to the stylesheet specifically for the contact page, defining the look and feel of contact-related elements -->
+    <link rel="stylesheet" href="../css/contact.css">
+
+    <!-- defining common styles used throughout the website -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <!-- Start Animation -->
+    <div class="animation" id="loader">
+        <div class="loader"></div>
+    </div>
+    <!-- End Animation -->
+    <!-- Start Effect -->
+    <div id="effect" class="effect"></div>
+    <!-- Start Effect -->
+    <!-- Start Contact Page -->
+    <div class="sections" id="sections" style="display: none;">
+        <!-- Start header -->
+        <header class="show">
+            <div class="containerHeader">
+                <div class="logo">
+                    <img src="../assets/heart-with-flame.png" alt="">
+                </div>
+                <ul class="links">
+                    <li><a href="../index.html" data-i18n="header_Link_1"></a></li>
+                    <li><a href="./services.html" data-i18n="header_Link_2"></a></li>
+                    <li><a href="./portfolio.html" data-i18n="header_Link_3"></a></a></li>
+                    <li><a href="./products.html" data-i18n="header_Link_4"></a></li>
+                    <li><a href="./team.html" data-i18n="header_Link_5"><a></a></li>
+                    <li><a class="active" href="./contact.html" data-i18n="header_Link_6"><a></a></li>
+                </ul>
+                <div class="language">
+                    <button id="language">
+                        <div class="text" id="textButtonLanguage">
+                            <img src="../assets/american.png" alt=""> EN
+                        </div>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <ul id="ul_language">
+                        <li value="en" class="languageSelector"><img src="../assets/american.png" alt=""> EN </li>
+                        <li value="de" class="languageSelector"><img src="../assets/germany.png" alt=""> DE</li>
+                    </ul>
+                </div>
+                <a href="./contact.html" id="contactUsButton">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <span data-i18n="header_Link_contact"></span>
+
+                </a>
+                <button id="showMenu"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </header>
+        <!-- End header -->
+        <!-- Start Banner -->
+        <div class="banner">
+            <div class="container">
+                <div class="content wow animate__fadeInUp" data-wow-duration="1.2s">
+                    <h1 data-i18n="breadcrumb_title"></h1>
+                    <div class="breadcrumb">
+                        <a data-i18n="breadcrumb_link" href="../index.html"></a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <p data-i18n="breadcrumb_title"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Banner -->
+        <!-- Start Section visitUs -->
+        <div class="visitUs">
+            <div class="container">
+                <div class="boxes">
+                    <div class="box wow animate__fadeInUp" data-wow-duration="1.5s">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <h3 data-i18n="visitUs_boxOne_title">​</h3>
+                        <p data-i18n="visitUs_boxOne_paragraph"></p>
+                    </div>
+                    <div class="box wow animate__fadeInUp" data-wow-duration="1.8s">
+                        <div class="icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <h3 data-i18n="visitUs_boxTwo_title"></h3>
+                        <p data-i18n="visitUs_boxTwo_paragraph"></p>
+                        <p data-i18n="visitUs_boxTwo_paragraph_2"></p>
+                    </div>
+                    <div class="box wow animate__fadeInUp" data-wow-duration="2s">
+                        <div class="icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <h3 data-i18n="visitUs_boxThree_title">​</h3>
+                        <p data-i18n="visitUs_boxThree_paragraph"></p>
+                        <p data-i18n="visitUs_boxThree_paragraph_2"></p>
+                    </div>
+                    <div class="box wow animate__fadeInUp" data-wow-duration="2.2s">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <h3 data-i18n="visitUs_boxFour_title">​</h3>
+                        <p data-i18n="visitUs_boxFour_paragraph"></p>
+                        <p data-i18n="visitUs_boxFour_paragraph_2"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Section visitUs -->
+        <!-- Start Section Contact  -->
+        <div class="contact">
+            <div class="container wow animate__fadeInUp" data-wow-duration="3s">
+                <form action="">
+                    <div class="div">
+                        <input data-i18n="contact_input_name" data-type="form" type="text" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <input data-i18n="contact_input_email" data-type="form" type="email" required>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="div">
+                        <input data-i18n="contact_input_phone" data-type="form" type="text" required>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h5 data-i18n="contact_titleService"></h5>
+                    <div class="radios">
+                        <div class="radio">
+                            <input type="radio" name="service" id="SEO_Optimization">
+                            <label data-i18n="service_radio_1" for="SEO_Optimization"></label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="service" id="Website">
+                            <label data-i18n="service_radio_2" for="Website"></label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="service" id="UI/UIX">
+                            <label data-i18n="service_radio_3" for="UI/UIX"></label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="service" id="Security">
+                            <label data-i18n="service_radio_4" for="Security"></label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="service" id="Hosting">
+                            <label data-i18n="service_radio_5" for="Hosting"></label>
+                        </div>
+                    </div>
+                    <h5 data-i18n="contact_titleProduct"></h5>
+                    <div class="radios">
+                        <div class="radio">
+                            <input type="radio" name="product" id="exact360">
+                            <label for="exact360">Exact360</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="product" id="idea_portal">
+                            <label for="idea_portal">Idea Portal</label>
+                        </div>
+                    </div>
+                    <div class="div">
+                        <textarea data-i18n="contact_input_message" data-type="form" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="checkBoxes">
+                        <label class="checkbox"> <span data-i18n="contact_input_checkbox"> </span>
+                            <input type="checkbox" name="agreeTransmissionData" id="agreeData" required>
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <button data-i18n="contact_input_sumbit" type="sumbit"></button>
+                </form>
+            </div>
+        </div>
+        <!-- End Section Contact  -->
+        <!-- Start Footer -->
+        <footer>
+            <div class="container">
+                <div class="grid">
+                    <div class="partOne">
+                        <h2 data-i18n="footer_partOne_title"></h2>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>2 Terssa Street Haram Giza</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>contact@example.com</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-clock"></i>
+                                <p>Monday to Saturday: 9.00am to 16.pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partTwo">
+                        <h2 data-i18n="footer_partTwo_title"></h2>
+                        <ul>
+                            <li><a data-i18n="footer__partTwo_Link_1" href="../index.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_2" href="./services.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_3" href="./portfolio.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_4" href="./products.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_5" href="./team.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_6" href="./contact.html"></a></li>
+                        </ul>
+                    </div>
+                    <div class="partThree">
+                        <h2 data-i18n="footer_partThree_title"></h2>
+                        <ul>
+                            <li><a data-i18n="footer__partThree_Link_1" href=""></a></li>
+                            <li><a data-i18n="footer__partThree_Link_2" href=""></a></li>
+                            <li><a data-i18n="footer__partThree_Link_3" href=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="partFour">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div class="text">
+                                <p>Call for support</p>
+                                <h4>+9090 8080 4044</h4>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <div class="text">
+                                <p>Have Any Questions?</p>
+                                <h4>+1-800-456-478-23</h4>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a target='_blank' href="">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a target='_blank' href="">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a target='_blank' href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="end">
+                    <div class="copyright">
+                        Copyright © 2024. All Rights <a href="../index.html">HEART IT</a>.
+                    </div>
+                    <div class="image">
+                        <img src="../assets/heart-with-flame.png" alt="">
+                        <img src="../assets/title.png" alt="">
+                    </div>
+                    <div class="links">
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookie Policy</a>
+                        <a href="">impressum</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <!-- Button Scroll -->
+        <button class="buttonScroll">
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
+        <!-- Button Scroll -->
+        <!-- Header Mobile -->
+        <div class="menuMobile" id="menuMobile">
+            <div class="container">
+                <div class="top">
+                    <h4>HEART IT</h4>
+                    <button id="buttonClose"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <ul>
+                    <li><a href="../index.html" data-i18n="header_Link_1"></a></li>
+                    <li><a href="./services.html" data-i18n="header_Link_2"></a></li>
+                    <li><a href="./portfolio.html" data-i18n="header_Link_3"></a></a></li>
+                    <li><a href="./products.html" data-i18n="header_Link_4"></a></li>
+                    <li><a href="./team.html" data-i18n="header_Link_5"><a></a></li>
+                    <li><a class="active" href="./contact.html" data-i18n="header_Link_6"><a></a></li>
+                </ul>
+            </div>
+            <div id="outMenu"></div>
+        </div>
+        <!-- Header Mobile -->
+    </div>
+    <!-- Load the WOW.js library for animations on scroll -->
+    <script src="../js/wow.min.js"></script>
+
+    <!-- which contains code related to handling contact form interactions -->
+    <script src="../js/contact.js" type="module"></script>
+
+    <!-- which contains the primary JavaScript logic for the webpage -->
+    <script src="../js/script.js" type="module"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="../assets/heart-with-flame.png" type="image/x-icon">
+
+    <!-- This sets the title of the web page that appears on the browser tab -->
+    <title>HEART IT - We Do It With Heart</title>
+
+    <!-- This links to a stylesheet for icons to add various icons to the webpage -->
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <!-- This links to a stylesheet for animations to add CSS animations to elements -->
+    <link rel="stylesheet" href="../css/animate.min.css">
+
+    <!-- This links to the stylesheet specifically for the services page, defining the look and feel of services-related elements -->
+    <link rel="stylesheet" href="../css/services.css">
+
+    <!-- This links to a general stylesheet for the entire site, defining common styles used throughout the website -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Start Animation -->
+    <div class="animation" id="loader">
+        <div class="loader"></div>
+    </div>
+    <!-- End Animation -->
+    <!-- Start Effect -->
+    <div id="effect" class="effect"></div>
+    <!-- Start Contact Page -->
+    <div class="sections" id="sections" style="display: none;">
+        <!-- Start Banner -->
+        <header class="show">
+            <div class="containerHeader">
+                <div class="logo">
+                    <img src="../assets/heart-with-flame.png" alt="">
+                </div>
+                <ul class="links">
+                    <li><a href="../index.html" data-i18n="header_Link_1"></a></li>
+                    <li><a class="active" href="./services.html" data-i18n="header_Link_2"></a></li>
+                    <li><a href="./portfolio.html" data-i18n="header_Link_3"></a></a></li>
+                    <li><a href="./products.html" data-i18n="header_Link_4"></a></li>
+                    <li><a href="./team.html" data-i18n="header_Link_5"><a></a></li>
+                    <li><a href="./contact.html" data-i18n="header_Link_6"><a></a></li>
+                </ul>
+                <div class="language">
+                    <button id="language">
+                        <div class="text" id="textButtonLanguage">
+                            <img src="../assets/american.png" alt=""> EN
+                        </div>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <ul id="ul_language">
+                        <li value="en" class="languageSelector"><img src="../assets/american.png" alt=""> EN </li>
+                        <li value="de" class="languageSelector"><img src="../assets/germany.png" alt=""> DE</li>
+                    </ul>
+                </div>
+                <a href="./contact.html" id="contactUsButton">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <span data-i18n="header_Link_contact"></span>
+                </a>
+                <button id="showMenu"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </header>
+        <!-- End Banner -->
+        <!-- Start Banner -->
+        <div class="banner">
+            <div class="container">
+                <div class="content wow animate__fadeInUp" data-wow-duration="1.2s">
+                    <h1 data-i18n="breadcrumb_title"></h1>
+                    <div class="breadcrumb">
+                        <a data-i18n="breadcrumb_link" href="../index.html"></a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <p data-i18n="breadcrumb_title"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Banner -->
+        <!-- Start Section business-->
+        <div class="business">
+            <div class="container">
+                <div class="title wow animate__fadeInUp" data-wow-duration="2s">
+                    <h1 data-i18n="business_title"></h1>
+                </div>
+                <div class="boxes" id="filter">
+                    <!-- Box One  -->
+                    <div data-category="category_1" class="box active wow animate__fadeInUp" data-wow-duration="1.2s">
+                        <div class="icon">
+                            <img src="../assets/seo.png" alt="">
+                        </div>
+                        <p data-i18n="business_BoxOne"></p>
+                    </div>
+                    <!-- Box Two  -->
+                    <div data-category="category_2" class="box wow animate__fadeInUp" data-wow-duration="1.5s">
+                        <div class="icon">
+                            <img src="../assets/website.png" alt="">
+                        </div>
+                        <p data-i18n="business_BoxTwo"></p>
+                    </div>
+                    <!-- Box Three  -->
+                    <div data-category="category_3" class="box wow animate__fadeInUp" data-wow-duration="1.8s">
+                        <div class="icon">
+                            <img src="../assets/design.png" alt="">
+                        </div>
+                        <p data-i18n="business_BoxThree"></p>
+                    </div>
+                    <!-- Box Four  -->
+                    <div data-category="category_4" class="box wow animate__fadeInUp" data-wow-duration="2s">
+                        <div class="icon">
+                            <img src="../assets/security.png" alt="">
+                        </div>
+                        <p data-i18n="business_BoxFour"></p>
+                    </div>
+                    <!-- Box Five  -->
+                    <div data-category="category_5" class="box wow animate__fadeInUp" data-wow-duration="2.2s">
+                        <div class="icon">
+                            <img src="../assets/dns.png" alt="">
+                        </div>
+                        <p data-i18n="business_BoxFive"></p>
+                    </div>
+                    <!-- Box Six  -->
+                    <div data-category="category_6" class="box wow animate__fadeInUp" data-wow-duration="2.5s">
+                        <div class="icon">
+                            <img src="../assets/check-all.png" alt="">
+                        </div>
+                        <p data-i18n="business_BoxSix"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Section business-->
+        <!-- Start Price -->
+        <div class="plans">
+            <div class="container">
+                <div class="boxes">
+                    <div class="box  wow animate__fadeInUp" data-wow-duration="2s">
+                        <h2 data-i18n="plan_1_title"></h2>
+                        <div class="price">
+                            <span>$</span>
+                            <h5 data-i18n="plan_1_price"></h5>
+                            <p data-i18n="plan_1_p"></p>
+                        </div>
+                        <h6 data-i18n="plan_1_h6"></h6>
+                        <ul>
+                            <li class="true" data-i18n="plan_1_li_1"></li>
+                            <li class="true" data-i18n="plan_1_li_2"></li>
+                            <li class="true" data-i18n="plan_1_li_3"></li>
+                            <li class="false" data-i18n="plan_1_li_4"></li>
+                            <li class="false" data-i18n="plan_1_li_5"></li>
+                            <li class="false" data-i18n="plan_1_li_6"></li>
+                        </ul>
+                        <button data-i18n="plan_button"></button>
+                    </div>
+                    <div class="box wow animate__fadeInUp" data-wow-duration="2.5s">
+                        <h2 data-i18n="plan_2_title"></h2>
+                        <div class="price">
+                            <span>$</span>
+                            <h5 data-i18n="plan_2_price"></h5>
+                            <p data-i18n="plan_2_p"></p>
+                        </div>
+                        <h6 data-i18n="plan_2_h6"></h6>
+                        <ul>
+                            <li class="true" data-i18n="plan_2_li_1"></li>
+                            <li class="true" data-i18n="plan_2_li_2"></li>
+                            <li class="true" data-i18n="plan_2_li_3"></li>
+                            <li class="true" data-i18n="plan_2_li_4"></li>
+                            <li class="false" data-i18n="plan_2_li_5"></li>
+                            <li class="false" data-i18n="plan_2_li_6"></li>
+                        </ul>
+                        <button data-i18n="plan_button"></button>
+                    </div>
+                    <div class="box wow animate__fadeInUp" data-wow-duration="3s">
+                        <h2 data-i18n="plan_3_title"></h2>
+                        <div class="price">
+                            <span>$</span>
+                            <h5 data-i18n="plan_3_price"></h5>
+                            <p data-i18n="plan_3_p"></p>
+                        </div>
+                        <h6 data-i18n="plan_3_h6"></h6>
+                        <ul>
+                            <li class="true" data-i18n="plan_3_li_1"></li>
+                            <li class="true" data-i18n="plan_3_li_2"></li>
+                            <li class="true" data-i18n="plan_3_li_3"></li>
+                            <li class="true" data-i18n="plan_3_li_4"></li>
+                            <li class="true" data-i18n="plan_3_li_5"></li>
+                            <li class="true" data-i18n="plan_3_li_6"></li>
+                        </ul>
+                        <button data-i18n="plan_button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Price -->
+        <!-- Start Section creative-->
+        <div class="creative">
+            <div class="container">
+                <div class="grid">
+                    <div class="image wow animate__fadeInLeft" data-wow-duration="2s">
+                        <img src="../assets/services_frame.png" alt="">
+                    </div>
+                    <div class="text wow animate__fadeInUp" data-wow-duration="2s">
+                        <div class="title">
+                            <h4 data-i18n="creative_title_h4"></h4>
+                            <h1 data-i18n="creative_title_h1"></h1>
+                        </div>
+                        <p data-i18n="creative_title_p"></p>
+                        <button> <span data-i18n="creative_title_Button"></span> <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Section creative-->
+        <!-- Start Section work-->
+        <div class="work">
+            <div class="container">
+                <div class="title wow animate__fadeInUp" data-wow-duration="2s">
+                    <span data-i18n="work_title_span"></span>
+                    <h1 data-i18n="work_title_h1"></h1>
+                </div>
+                <div class="boxes">
+                    <div class="box wow animate__fadeInUp" data-wow-duration="2s">
+                        <h1 class="number">
+                            01
+                        </h1>
+                        <h3 data-i18n="work_boxOne_h3"></h3>
+                        <p data-i18n="work_boxOne_p"></p>
+                    </div>
+                    <div class="box wow animate__fadeInUp" data-wow-duration="2.4s">
+                        <h1 class="number">
+                            02
+                        </h1>
+                        <h3 data-i18n="work_boxTwo_h3"></h3>
+                        <p data-i18n="work_boxTwo_p"></p>
+                    </div>
+                    <div class="box wow animate__fadeInUp" data-wow-duration="2.8s">
+                        <h1 class="number">
+                            03
+                        </h1>
+                        <h3 data-i18n="work_boxThree_h3"></h3>
+                        <p data-i18n="work_boxThree_p"></p>
+                    </div>
+                    <div class="box wow animate__fadeInUp" data-wow-duration="3s">
+                        <h1 class="number">
+                            04
+                        </h1>
+                        <h3 data-i18n="work_boxFoure_h3"></h3>
+                        <p data-i18n="work_boxFour_p"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Section work-->
+        <!-- Start Footer -->
+        <footer>
+            <div class="container">
+                <div class="grid">
+                    <div class="partOne">
+                        <h2 data-i18n="footer_partOne_title"></h2>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>2 Terssa Street Haram Giza</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>contact@example.com</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-clock"></i>
+                                <p>Monday to Saturday: 9.00am to 16.pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partTwo">
+                        <h2 data-i18n="footer_partTwo_title"></h2>
+                        <ul>
+                            <li><a data-i18n="footer__partTwo_Link_1" href="../index.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_2" href="./services.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_3" href="./portfolio.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_4" href="./products.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_5" href="./team.html"></a></li>
+                            <li><a data-i18n="footer__partTwo_Link_6" href="./contact.html"></a></li>
+                        </ul>
+                    </div>
+                    <div class="partThree">
+                        <h2 data-i18n="footer_partThree_title"></h2>
+                        <ul>
+                            <li><a data-i18n="footer__partThree_Link_1" href=""></a></li>
+                            <li><a data-i18n="footer__partThree_Link_2" href=""></a></li>
+                            <li><a data-i18n="footer__partThree_Link_3" href=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="partFour">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div class="text">
+                                <p>Call for support</p>
+                                <h4>+9090 8080 4044</h4>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <div class="text">
+                                <p>Have Any Questions?</p>
+                                <h4>+1-800-456-478-23</h4>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a target='_blank' href="">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a target='_blank' href="">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a target='_blank' href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="end">
+                    <div class="copyright">
+                        Copyright © 2024. All Rights <a href="../index.html">HEART IT</a>.
+                    </div>
+                    <div class="image">
+                        <img src="../assets/heart-with-flame.png" alt="">
+                        <img src="../assets/title.png" alt="">
+                    </div>
+                    <div class="links">
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookie Policy</a>
+                        <a href="">impressum</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <!-- Button Scroll -->
+        <button class="buttonScroll">
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
+        <!-- Button Scroll -->
+        <!-- Header Mobile -->
+        <div class="menuMobile" id="menuMobile">
+            <div class="container">
+                <div class="top">
+                    <h4>HEART IT</h4>
+                    <button id="buttonClose"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <ul>
+                    <li><a href="../index.html" data-i18n="header_Link_1"></a></li>
+                    <li><a class="active" href="./services.html" data-i18n="header_Link_2"></a></li>
+                    <li><a href="./portfolio.html" data-i18n="header_Link_3"></a></a></li>
+                    <li><a href="./products.html" data-i18n="header_Link_4"></a></li>
+                    <li><a href="./team.html" data-i18n="header_Link_5"><a></a></li>
+                    <li><a href="./contact.html" data-i18n="header_Link_6"><a></a></li>
+                </ul>
+            </div>
+            <div id="outMenu"></div>
+        </div>
+        <!-- Header Mobile -->
+    </div>
+    <!-- This script tag includes the wow.min.js file, which is likely a JavaScript library for triggering animations on scroll -->
+    <script src="../js/wow.min.js"></script>
+
+    <!-- This file contains JavaScript code related to services functionality -->
+    <script src="../js/services.js" type="module"></script>
+
+    <!-- This file contains general JavaScript code for the website -->
+    <script src="../js/script.js" type="module"></script>
+
+</body>
+
+</html>
