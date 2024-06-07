@@ -42,9 +42,11 @@ itemsFilter.forEach((item) => {
 
         // Add the "active" class to the selected filter item
         item.classList.add("active");
-
-        setLanguage(localStorage.getItem("lang"));
-
+        if (localStorage.getItem("lang"))
+            setLanguage(localStorage.getItem("lang"));
+        else
+            setLanguage(("en"));
+        
     });
 });
 
