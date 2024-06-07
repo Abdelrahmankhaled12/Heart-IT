@@ -204,7 +204,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    align-items: center;
 }
 
 @media(max-width : 1192px) {
@@ -252,6 +251,7 @@
 
 .features .grid .boxes .box p {
     margin: 0;
+    height: 60px;
 }
 
 .features .grid .boxes .box .icon img {
